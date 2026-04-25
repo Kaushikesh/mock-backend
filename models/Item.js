@@ -28,8 +28,8 @@ const itemSchema = new mongoose.Schema(
       trim: true,
     },
      discount: {
-      type:float,
-      default: "",
+      type:Number,
+      default: 0,
       trim: true,
     },
   },
